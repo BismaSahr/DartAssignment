@@ -1,3 +1,4 @@
+  // Bubble Sort Method
 void main() {
   List<String> list = [
     "tis is really really really cool experiment really",
@@ -8,7 +9,7 @@ void main() {
 
   List<String> words = list.expand((str) => str.split(" ")).toList();
 
-  // Step 2: Initialize a list to store counted words
+
   List<MapEntry<String, int>> wordCount = [];
 
 
